@@ -109,9 +109,9 @@ A reusable `evaluate_model()` function computes all four metrics using `Multicla
 
 | Model | Setosa | Versicolor | Virginica | Errors |
 |---|---|---|---|---|
-| Logistic Regression | 14/14 ✅ | 5/6 | 9/9 ✅ | 1 (Versicolor → Virginica) |
-| Decision Tree | 14/14 ✅ | 5/6 | 8/9 | 2 (cross-species) |
-| Random Forest | 14/14 ✅ | 5/6 | 9/9 ✅ | 1 (Versicolor → Virginica) |
+| Logistic Regression | 14/14 | 5/6 | 9/9 | 1 (Versicolor → Virginica) |
+| Decision Tree | 14/14 | 5/6 | 8/9 | 2 (cross-species) |
+| Random Forest | 14/14 | 5/6 | 9/9 | 1 (Versicolor → Virginica) |
 
 All misclassifications occur between **Versicolor** and **Virginica**, reflecting the natural overlap in their petal and sepal measurements — a well-known challenge in this dataset.
 
@@ -200,7 +200,7 @@ jupyter notebook P162501_STQD6324_Iris_SparkMLlib.ipynb
 
 **Step 4 — Run all cells in order.**
 
-> ⚠️ Ensure Java is installed and `JAVA_HOME` is set correctly before running PySpark.
+> Ensure Java is installed and `JAVA_HOME` is set correctly before running PySpark.
 
 ### Reproducibility Notes
 - All random operations use `seed=123` for consistent results.
