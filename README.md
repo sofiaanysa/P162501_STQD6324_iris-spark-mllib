@@ -6,7 +6,6 @@
 | **Student ID** | P162501 |
 | **Course** | STQD6324 Data Management — Assignment 1 (25%) |
 | **Semester** | 2, 2025/2026 |
-| **Submission Deadline** | 2026-05-31 |
 
 ---
 
